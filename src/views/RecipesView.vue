@@ -3,6 +3,6 @@
 
 <template>
     <div>
-        Home Page
+        Recipes Page
     </div>
 </template>

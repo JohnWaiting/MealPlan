@@ -3,6 +3,6 @@
 
 <template>
     <div>
-        Home Page
+        Meal Plan Page
     </div>
 </template>
