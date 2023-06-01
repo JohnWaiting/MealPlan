@@ -3,14 +3,15 @@ import { defineStore } from "pinia"
 
 export interface Recipe {
     name: string;
-    previewImageUrl: string;
+    previewImageUrl: string | null;
 }
 
 class RecipeService {
     loadAll(): Promise<Recipe[]> {
         return Promise.resolve([
-            { name: "recipe1", previewImageUrl: "recipe1.jpg" },
+            { name: "recipe1", previewImageUrl: null },
             { name: "recipe2", previewImageUrl: "recipe2.jpg" },
+            { name: "recipe3", previewImageUrl: "recipe3.jpg" },
         ]);
     }
 }
