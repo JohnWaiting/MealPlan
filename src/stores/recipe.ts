@@ -10,8 +10,8 @@ class RecipeService {
     loadAll(): Promise<Recipe[]> {
         return Promise.resolve([
             { name: "recipe1", previewImageUrl: null },
-            { name: "recipe2", previewImageUrl: "recipe2.jpg" },
-            { name: "recipe3", previewImageUrl: "recipe3.jpg" },
+            { name: "recipe2", previewImageUrl: null },
+            { name: "recipe with a very very very veryvery very very  very very very very very very very very very very very very very very very very very very very very very very very very long name", previewImageUrl: "test-dish-preview.jpg" },
         ]);
     }
 }
